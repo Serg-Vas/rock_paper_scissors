@@ -173,7 +173,7 @@ void Finish(std::string& player_choice, std::string& bot_choice, const int& play
 
 void General()
 {
-	Initialise();
+	Initialise();//Налаштування кодової сторінки 1251
 
 	const int len = 3;
 	string start;
